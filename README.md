@@ -93,7 +93,7 @@ Seeder akan membuat user default:
 - **Admin:** email: `admin@gmail.com`, password: `admin12345`
 - User lain dapat dilihat di `database/seeders/AdminApotekerSeeder.php`
 
-### 7. Install Dependencies Frontend (Opsional)
+### 7. Install Dependencies Frontend
 
 Jika ingin compile asset frontend:
 
@@ -111,23 +111,13 @@ php artisan serve
 
 Aplikasi akan berjalan di: `http://localhost:8000`
 
-**Compile Asset dengan Vite (Opsional):**
+**Compile Asset dengan Vite:**
 
 Di terminal terpisah, jalankan:
 
 ```bash
 npm run dev
 ```
-
-Untuk production build:
-
-```bash
-npm run build
-```
-
-**Menggunakan Apache/Nginx:**
-
-Arahkan document root ke folder `public/` dan pastikan mod_rewrite aktif.
 
 ### 9. Login
 
