@@ -141,7 +141,7 @@ apotek-lsp/
 │   └── views/              # Blade templates
 ├── routes/
 │   └── web.php            # Route definitions
-└── .env                   # Konfigurasi environment (JANGAN di-commit!)
+└── .env                   # Konfigurasi environment
 ```
 
 ## Kontribusi
