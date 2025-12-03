@@ -138,7 +138,7 @@ apotek-lsp/
 │   └── seeders/            # File seeder
 ├── public/                 # Asset publik (CSS, JS, images)
 ├── resources/
-│   └── views/              # Blade templates
+│   └── views/              # Blade templates/tampilan website
 ├── routes/
 │   └── web.php            # Route definitions
 └── .env                   # Konfigurasi environment
